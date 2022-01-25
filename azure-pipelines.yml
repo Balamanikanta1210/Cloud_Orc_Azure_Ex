@@ -21,7 +21,7 @@ steps:
   inputs:
     versionType: 'AutoVersion'
     projectJsonPath: '$(Build.SourcesDirectory)'
-    outputType: 'Process'
+    outputType: 'Tests'
     orchestratorConnection: 'Cloud_Orc'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
     
